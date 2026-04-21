@@ -1,0 +1,34 @@
+{
+    "name": "GameDevKit (GDK)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "BetterSettings.ts",
+        "menu.ts",
+        "menuState.ts",
+        "api.ts",
+        "control.ts",
+        "blur.ts",
+        "zoom.ts",
+        "stats.ts",
+        "noifications.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
